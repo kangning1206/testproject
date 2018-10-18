@@ -1,20 +1,10 @@
-
 import React from 'react';
 import { connect } from 'dva';
-import styles from './IndexPage.css';
-
-
-import {
-  Link
-} from 'react-router-dom';
+import styles from './index.css';
 
 function IndexPage() {
   return (
     <div className={styles.normal}>
-
-    <Link to='/admin'>管理</Link>
-
-
       <h1 className={styles.title}>Yay! Welcome to dva!</h1>
       <div className={styles.welcome} />
       <ul className={styles.list}>
